@@ -1,4 +1,5 @@
 <?php
+$Arun = "Arun"
  $usr = $_POST["usr"];
  $pwd = $_POST["pwd"];
  if($usr == “Arun” && $pwd == “Arun”)
