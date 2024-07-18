@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1); // Declare strict types
 
-$Arun = "Arun"; // Remove unnecessary variable
+$Arun = "Arun"; // Remove unnecessary variable;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") { // Check if the request method is POST
     $usr = filter_input(INPUT_POST, "usr", FILTER_SANITIZE_STRING); // Sanitize user input
